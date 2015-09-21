@@ -1,0 +1,10 @@
+discovery:
+  image: cinfantes/banco10-discovery
+  ports:
+   - "8761:8761"
+configuration:
+  image: cinfantes/banco10-configuration
+  ports:
+   - "8080:8080"
+  links:
+   - discovery

@@ -1,0 +1,7 @@
+---
+applications:
+- name: banco10-config
+  host: banco10-config-${random-word}
+  memory: 512M
+  instances: 1
+  path: target/banco10-config-0.0.1-SNAPSHOT.jar
