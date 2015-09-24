@@ -3,7 +3,7 @@ discovery:
   ports:
    - "8761:8761"
 configuration:
-  image: cinfantes/banco-configuration
+  image: cinfantes/banco-config
   ports:
    - "8080:8080"
   links:
